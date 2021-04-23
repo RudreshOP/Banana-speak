@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Speak</title>
+    <style>
+       /* textarea{
+            width:80%;
+            height: 100px;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+        }*/ 
+        #output{
+            border: 1px solid #7444ce;
+            width: 80%;
+            height: 100px;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 1rem;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="container-fluid">
+            <img class="logo-image" src="minions.png"/>
+            <div class="brand"> Fun Translations</div>
+        </div>
+    </nav>
+    <textarea class = "textarea" id="txtinput" placeholder="Put Your Message here to convert it to Minion language"></textarea>
+    <div class="container">        
+        <button class="button" id="btntranslate">Translate</button>
+        <div class="container">Output will be displayed here 👇</div>
+    </div>
+    <div id="output"></div> 
+    <footer class="footer">
+        <div>
+            About
+        </div>
+        <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator
+            to convert your text from English to Minion speak or Banana language.</p>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+</html>
